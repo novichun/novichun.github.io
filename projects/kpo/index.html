@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kő Papír Olló játék - Novák Dániel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>Kő Papír Olló</h1>
+<table>
+  <tr>
+    <td>Játékos</td>
+    <td><span id="jatekős_pont">0</span></td>
+  </tr>
+  <tr>
+    <td>Gép</td>
+    <td><span id="gep_pont">0</span></td>
+  </tr>
+</table>
+   <br/>
+        <div class="lehetosegek">
+            <button onclick="valaszt('kő')">
+                <i class="far fa-hand-rock"></i>
+            </button>
+            <button onclick="valaszt('papír')">
+                <i class="far fa-hand-paper"></i>
+            </button>
+            <button onclick="valaszt('olló')">
+                <i class="far fa-hand-scissors"></i>
+            </button>
+        </div>
+        <div class="eredmeny">
+            <p id="jatekős_valasztas"></p>
+            <p id="gep_valasztas"></p>
+            <p id="vege"></p>
+        </div>
+ 
+
+<script src="scripts.js"></script>
+</body>

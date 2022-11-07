@@ -1,0 +1,74 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 800;
+
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 20px 0;
+  color: white;
+  font-weight: 500;
+}
+td {
+  padding: 10px 0;
+}
+p {
+  color: white;
+}
+.lehetosegek{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.lehetosegek button{
+    background-color: orange;
+    color: #000000;
+    border: none;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+.eredmeny{
+    margin-top: 30px;
+    text-align: center;
+}
+.eredmeny{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+#vege{
+    width: 180px;
+    padding: 10px 0;
+    margin: 30px auto;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+#jatekos_valasztas,
+#gep_valasztas{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+span{
+    font-weight: 600;
+}
